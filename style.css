@@ -1,0 +1,86 @@
+#top {
+    background-color: #f5f1f0;
+    border: 5px solid red;
+    border-radius: 5px;
+    min-height: 80px;
+    justify-content: space-around;
+    display: flex;
+}
+
+#Rubrik {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    align-items: center;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#rubrik_v{
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 5px;
+    justify-content: space-around;
+    min-height: 80px;
+    min-width: 49vw;
+    align-items: center;
+}
+
+#rubrik_h{
+    display: flex;
+    background-color:   pink;
+    border: 3px solid black;
+    border-radius: 5px;
+    justify-content: space-around;
+    min-height: 80px;
+    min-width: 49%;
+    align-items: center;
+    margin-left: 6px;
+}
+
+
+#div_mellan{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid orange;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#div_botten{
+    border: 2px solid yellow;
+}
